@@ -2,26 +2,31 @@
 # Libraries Used
 - Retrofit - For the network calls.
 - RxJava - For making 2 Async Retrofit calls at the same time and combining their responses.
-- Picasso - For rendering images.
-- RoomDB - For Save Data.
-- Lottile - For Animation.
+- Frescolib  - For rendering images.
 - Unit Testing.
 
 # Project Structure
-- com.mirzaadil.assignmentpayconiq.activities -Contains all the activities.
-- com.mirzaadil.assignmentpayconiq.adapters -Contains all the adapter. In this project only the Recycler Adapters.
-- com.mirzaadil.assignmentpayconiq.database.db - Contains contains all DataBase Classes.
-- com.mirzaadil.assignmentpayconiq.database.db - Contains contains all DataBase Classes.
-- com.mirzaadil.assignmentpayconiq.models - Contains the model classes of the entities in the project.
-- com.mirzaadil.assignmentpayconiq.networks - Contains everything about network implementation.
-- com.mirzaadil.assignmentpayconiq.utils - Contains all helpers supporting code.
+- mirzaadil.nytimes.view.activities -Contains all the activities.
+- mirzaadil.nytimes.view.adapters -Contains all the adapter. In this project only the Recycler Adapters.
+- mirzaadil.nytimes.model - Contains the model classes of the entities in the project.
+- mirzaadil.nytimes.controllers.network - Contains everything about network implementation.
+- mirzaadil.nytimes.controllers.utils - Contains all helpers supporting code.
 
-# MVP
+# Model View Controller (MVC)
 
-The MPV pattren is used to develop this application. In each activity package you can find a presentaion layer for that particular activity. All of the application logic and functionality about any particular activity is implemented in it's respective presenter. So, essentially I tried to seperate my application logic from my views. If there is any change in future or some additional feature needs to be added then we shall be sure about where exactly the change is going to happen in the code.
+MVC design pattern divides an application into three major aspects: Model, View, and Controller.
 
-Using MVP pattren makes this application highly extensible and maintainable.
-Using Kotlin in Database (RoomDM).
+# Model
+
+Model means data that is required to display in the view. Model represents a collection of classes that describes the business logic (business model and the data model). It also defines the business rules for data means as how the data can be changed and manipulated.
+
+# View
+
+The View represents UI components like XML, HTML etc. View displays the data that is received from the controller as the outcome. In MVC pattern View monitors the model for any state change and displays updated model. Model and View interact with each other using the Observer pattern.
+
+# Controller
+
+The Controller is responsible to process incoming requests. It processes the user’s data through the Model and passing back the results to View. It normally acts as a mediator between the View and the Model.
 
 # Authors
 - Mirza Adil
