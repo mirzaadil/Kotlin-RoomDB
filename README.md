@@ -1,11 +1,14 @@
-# Assignment
+# The New York Times
+
 # Libraries Used
+
 - Retrofit - For the network calls.
 - RxJava - For making 2 Async Retrofit calls at the same time and combining their responses.
 - Frescolib  - For rendering images.
 - Unit Testing.
 
 # Project Structure
+
 - mirzaadil.nytimes.view.activities -Contains all the activities.
 - mirzaadil.nytimes.view.adapters -Contains all the adapter. In this project only the Recycler Adapters.
 - mirzaadil.nytimes.model - Contains the model classes of the entities in the project.
