@@ -4,7 +4,7 @@
 
 - Retrofit - For the network calls.
 - RxJava - For making Async Retrofit calls at the same time their responses.
-- Glide  - Fresco is a powerful system for displaying images in Android applications..
+- Glide  - Glide is a powerful system for displaying images in Android applications..
 - Unit Testing.
 
 # Project Structure
