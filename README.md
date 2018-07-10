@@ -1,10 +1,10 @@
-# The New York Times
+# Assignemt
 
 # Libraries Used
 
 - Retrofit - For the network calls.
 - RxJava - For making Async Retrofit calls at the same time their responses.
-- Frescolib  - Fresco is a powerful system for displaying images in Android applications..
+- Glide  - Fresco is a powerful system for displaying images in Android applications..
 - Unit Testing.
 
 # Project Structure
