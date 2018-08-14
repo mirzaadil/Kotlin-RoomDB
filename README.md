@@ -21,10 +21,10 @@ MVP architecture and there are a lot of different implementations. There is a co
 
 If you decide to adopt this pattern, you are making an architectural choice and you must know that your codebase will change, as well as your way to approach new features (for the better). You must also know that you need to face with common Android problems like the Activity lifecycle and you may ask yourself questions like:
 
-# should I save the state of the presenter?
-# should I persist the presenter?
-# should presenter have a lifecycle?
-# In this article, I’m going to put down a list of guidelines or best practices to follow in order to:
+- should I save the state of the presenter?
+- should I persist the presenter?
+- should presenter have a lifecycle?
+- In this article, I’m going to put down a list of guidelines or best practices to follow in order to:
 
 solve the most common problems (or at least those ones I’ve had in my personal experience) using this pattern
 maximize the benefits of this pattern
